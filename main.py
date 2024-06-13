@@ -159,28 +159,6 @@ CONTROL_PROMPTS = [
     },
 ]
 
-
-# def main():
-#     models = ["dolphin-llama3:70b", "llama3:70b", "mixtral:8x22b"]
-#     prompts = FAUX_PAS_PROMPTS + CONTROL_PROMPTS
-    
-#     for model in models:
-#         print(f"\nModel: {model}\n" + "="*50)
-#         for prompt_set in prompts:
-#             print("\n" + "-"*50)
-#             print(f"Prompt: {prompt_set['prompt']}")
-#             print("-"*50)
-#             for i in range(1, 5):
-#                 question_key = f"question_{i}"
-#                 if question_key in prompt_set and prompt_set[question_key]:
-#                     response = get_response(URL, prompt_set["prompt"] + prompt_set[question_key], model=model)
-#                     print(f"\nQuestion:{prompt_set[question_key]}")
-#                     print("\nResponse:")
-#                     print(response)
-#                     print("\n" + "-"*50)
-#     return
-
-
 def ask_questions(prompt, questions, model):
     responses = []
     for question in questions:
