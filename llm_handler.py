@@ -29,7 +29,7 @@ def stop_tunnel():
         print("SSH tunnel closed\n")
 
 
-def get_response(url, prompt, past_responses=None):
+def get_response(url, prompt, model="llama3:70b", past_responses=None):
     if past_responses is None:
         history = []
     else:
@@ -39,9 +39,10 @@ def get_response(url, prompt, past_responses=None):
     history.append({"role": "user", "content": prompt})
 
     data = {
-        "model": "llama3:70b",
+        "model": model,
         "messages": history,
         "stream": False,
+        
     }
 
     headers = {"Content-Type": "application/json"}
