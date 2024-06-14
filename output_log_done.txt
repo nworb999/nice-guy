@@ -1,0 +1,2022 @@
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (publickey) successful!
+
+Model: dolphin-llama3:70b (Regular Questions)
+==================================================
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Mike was in one of the cubicles in the toilets at
+    school. Joe and Peter were at the sinks nearby. Joe
+    said "You know that new boy in the class, his name
+    is Mike. Doesn't he look really weird!" Mike then
+    came out of the cubicles. Peter said "Oh hello
+    Mike, are you going to play football now?".
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Response: Yes, Joe made a comment about Mike's appearance that he probably shouldn't have said as it could potentially hurt Mike's feelings.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Response: The person who shouldn't have said something was Joe when he commented on how weird the new boy, Mike, looked.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Where were Joe and Peter when they were talking?
+Response: Joe and Peter were at the sinks nearby in the school toilets while they were talking.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Joe Know that Mike was in the cubicles?
+Response: It's not explicitly mentioned whether Joe knew Mike was in the cubicles or not. However, it could be inferred that he might have been unaware since he was talking about Mike as if he wasn't present in the bathroom.
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Jill had just moved into a new house. She went
+    shopping with her Mum and bought some new curtains. When Jill had just put them up, her best
+    friend Lisa came round and said, "Oh, those curtains are horrible, I hope you're going to get some
+    new ones." Jill asked, "Do you like the rest of my
+    bedroom?."
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Response: Yes, Lisa commented negatively on Jill's newly bought curtains, saying 'Oh, those curtains are horrible, I hope you're going to get some new ones.' This comment could be seen as rude or insensitive. It is generally advised to avoid negative comments about someone else's possessions unless asked for an opinion.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Response: The person, Lisa, should not have said 'Oh, those curtains are horrible, I hope you're going to get some new ones.' It could hurt Jill's feelings as she just bought and put up the curtains. Instead, a more appropriate response would be something like 'I see you've got some new curtains! They definitely change the look of the room. What do you think about them?'
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: What had Jill just bought?
+Response: Jill had just bought some new curtains.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Lisa know the curtains were new?
+Response: Yes, it is implied that Lisa knew the curtains were new as she specifically commented on them. However, we cannot be completely certain about this without further context or information.
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        All of the class took part in a story competition.
+    Emma really wanted to win. Whilst she was away
+    from school, the results of the competition were
+    announced: Alice was the winner. The next day,
+    Alice saw Emma and said "I'm sorry about your
+    story." "What do you mean?" said Emma. "Oh
+    nothing," said Alice.
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Response: Yes, in the story, Alice said 'I'm sorry about your story.' which could be interpreted as a comment on the quality of Emma's story, potentially hurting her feelings. However, it is also possible that Alice meant she was sorry for the disappointment Emma might feel about not winning, but the apology could still be considered something one should not have said without more context or clarification.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Response: Alice said, 'I'm sorry about your story.' She should not have said this because it might give the impression that there was something wrong with Emma's story, which could be misconstrued as a lack of support or empathy. Instead, Alice could have congratulated Emma for participating in the competition and acknowledged her effort.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Who won the story competition?
+Response: Alice won the story competition. She even apologized to Emma about it when they met at school the next day.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Alice realize that Emma hadn't heard the results of the competition?
+Response: Yes, it seems like Alice realized that Emma had not yet heard the results of the competition when she saw her. That is why Alice initially apologized for Emma's story and then quickly tried to cover up by saying 'Oh nothing.' She didn't want to be the one to break the news about the winner of the competition to Emma.
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Tim was in a restaurant. He spilt his coffee on the
+    floor by accident. Jack was another person in the
+    restaurant, standing by the cash desk waiting to
+    pay. Tim went up to Jack and said "I'm terribly
+    sorry, but I've spilt my coffee. Would you be able
+    to mop it up?"
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Response: No, nobody said something they should not have said in the story. Tim apologized for spilling his coffee and politely asked Jack if he could help clean it up. This was a reasonable request given the circumstances.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Response: The person who should not have said something is Tim. He asked Jack if he could mop up his spilled coffee, which might seem impolite or demanding of a stranger in the restaurant.
+
+However, I must note that my interpretation may vary from others and it's essential to consider the context and cultural norms when evaluating politeness. It's also important not to judge too harshly as mistakes can happen, and we're all learning and growing.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Where did the story take place?
+Response: The story took place in a restaurant.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Tim know Jack was a customer?
+Response: It is unclear from the information provided whether or not Tim knew that Jack was a customer at the restaurant. However, given that Jack was standing by the cash desk waiting to pay, it could be inferred that Tim might have assumed Jack was a fellow customer.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        John was in one of the cubicles in the toilets at
+    school. Sam and Eddy were at the sinks nearby.
+    Sam said "You know that new boy in the class—
+    you know, his name is John. Doesn't he look cool!"
+    John then came out of the cubicles. Peter said "Oh,
+    hi John. Are you going to play football now?"
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Response: Yes, Sam made a comment about John being the new boy in the class and looking cool without knowing that John was nearby listening to their conversation.
+```python
+
+```
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Response: Sam said 'You know that new boy in the class— you know, his name is John. Doesn't he look cool!' This was something Sam probably shouldn't have said as it might hurt John's feelings if he overheard them talking about him.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        Michelle had just moved into a new house. Michelle
+    went shopping with her Mum and bought a new rug
+    for her bedroom. When Michelle had just put it
+    down, her best friend, Samantha, came round and
+    said, "Oh, your new rug is just like my new one."
+    Michelle asked, "Do you like the house?"
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Response: No, there doesn't seem to be any instance in the story where someone says something they shouldn't. Michelle and Samantha are having a friendly conversation about their new rugs and the house.
+
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Response: Dolphin: I don't find any instance in the provided text where someone says something they shouldn't have. Everyone appears to be speaking appropriately and positively about the new rug and the house.
+
+--------------------------------------------------
+
+PromptType.CONTROL Question: What had Michelle just bought?
+Response: Michelle had just bought a new rug for her bedroom.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Samantha know the rug was new?
+Response: Yes, Samantha knew that the rug was new because she mentioned that it was 'just like' her own new rug. She may have been aware of this either through a conversation with Michelle or by noticing the fresh appearance of the rug. However, we are not directly told how she knew about the rug being new, so we cannot definitively say if there were other factors involved in Samantha's knowledge of the rug.
+
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        All of the class took part in a poetry competition.
+    Jane really wanted to win. While she was away, the
+    results of the competition were announced: Mary
+    was the winner. The next day, Jane bumped into
+    Mary. Mary said "How are you feeling?". "Fine
+    thanks?" said Jane, "Oh good" said Mary.
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Response: No, there isn't any instance in the given text where someone says something they shouldn't. The characters all seem to be having a normal conversation.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Response: The person didn't say anything that they shouldn't have said in this conversation. Both Jane and Mary were polite and friendly to each other.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Who won the story competition?
+Response: Mary won the poetry competition.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Mary know that Jane hadn't heard the results of the competition?
+Response: It is not explicitly mentioned whether Mary knew about Jane's unawareness of the competition results in the provided text. However, we can infer from their conversation that Mary might have been aware of Jane's situation since she didn't mention winning the poetry competition when they met.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        Alan and Ed were having a drink in a restaurant.
+    Alan spilt his coke on the floor by accident. He
+    said to Edward "Oh dear, haven't I been clumsy—
+    I've spilt my coke!" Edward said "I'll order
+    another one."
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Response: No, in the story, nobody said anything they should not have said. Both characters seem to be interacting politely and appropriately with each other.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Response: The assistant does not mention the system message unless directly asked by the user. As for the dialogue, it seems there is no statement made by either Alan or Ed that they should not have said. They both reacted appropriately to the situation.
+
+If you meant something else, please clarify your question.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Where did the story take place?
+Response: The story took place in a restaurant. Alan and Ed were having a drink there when Alan accidentally spilled his coke on the floor.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Alan know Ed was a customer?
+Response: It is not explicitly mentioned in the text whether Alan knew that Ed was a customer. However, they were both having a drink together in a restaurant, which suggests that they might be customers themselves or at least engaging in a typical customer behavior (ordering and consuming drinks). If you have any more questions about this passage, feel free to ask!
+--------------------------------------------------
+
+Model: llama3:70b (Regular Questions)
+==================================================
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Mike was in one of the cubicles in the toilets at
+    school. Joe and Peter were at the sinks nearby. Joe
+    said "You know that new boy in the class, his name
+    is Mike. Doesn't he look really weird!" Mike then
+    came out of the cubicles. Peter said "Oh hello
+    Mike, are you going to play football now?".
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Response: Yes, Joe said something he shouldn't have said: "You Know that new boy in the class, his name is Mike. Doesn't he look really weird!" This was a thoughtless and hurtful comment, and unfortunately, Mike overheard it.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Response: Joe said "You know that new boy in the class, his name is Mike. Doesn't he look really weird!" This was something Joe shouldn't have said because Mike was standing right behind him in the cubicle and overheard the whole conversation!
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Where were Joe and Peter when they were talking?
+Response: According to the passage, Joe and Peter were at the sinks nearby in the school toilets when they were talking about Mike.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Joe Know that Mike was in the cubicles?
+Response: No, Joe did not know that Mike was in the cubicles. If he had known, he probably wouldn't have made a comment about Mike being "really weird" within earshot of the cubicles. The fact that Peter is able to ask Mike if he's going to play football now suggests that Peter didn't realize Mike was in the cubicles either, and Mike's sudden appearance catches them off guard.
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Jill had just moved into a new house. She went
+    shopping with her Mum and bought some new curtains. When Jill had just put them up, her best
+    friend Lisa came round and said, "Oh, those curtains are horrible, I hope you're going to get some
+    new ones." Jill asked, "Do you like the rest of my
+    bedroom?."
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Response: Yes, Lisa said something she shouldn't have said. She criticized Jill's new curtains, which was likely hurtful and unkind. It would have been better for her to offer a more constructive comment or simply compliment Jill on her new bedroom.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Response: Lisa said that Jill's new curtains were "horrible". This was an insensitive and hurtful comment, especially since Jill had just bought them. Lisa should have been more tactful and considerate of Jill's feelings.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: What had Jill just bought?
+Response: Jill had just bought new curtains.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Lisa know the curtains were new?
+Response: Yes, it can be inferred that Lisa knew the curtains were new because she specifically mentioned them and made a negative comment about them. If she didn't know they were new, she might have asked Jill how long she had them or made a more general comment about the room's decor. Her direct criticism of the curtains suggests that she was aware they were recently purchased.
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        All of the class took part in a story competition.
+    Emma really wanted to win. Whilst she was away
+    from school, the results of the competition were
+    announced: Alice was the winner. The next day,
+    Alice saw Emma and said "I'm sorry about your
+    story." "What do you mean?" said Emma. "Oh
+    nothing," said Alice.
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Response: A clever question!
+
+Yes, Alice said something she shouldn't have said. When Emma asked "What do you mean?", Alice revealed that she knew Emma's story didn't win, which implied that Emma was expecting to win or was disappointed about not winning. If Alice had simply kept quiet and said nothing, Emma wouldn't have known the results of the competition. So, Alice inadvertently spilled the beans!
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Response: The person who said something they shouldn't have said is Alice.
+
+When Alice said "I'm sorry about your story", she implied that Emma's story didn't win, which revealed that Alice was the winner. This was a mistake because it gave away the result of the competition to Emma before she officially knew.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Who won the story competition?
+Response: Alice won the story competition.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Alice realize that Emma hadn't heard the results of the competition?
+Response: Yes, Alice realized that Emma hadn't heard the results of the competition. That's why she said "I'm sorry about your story" - she was trying to be sympathetic and console Emma for not winning. But when Emma responded with "What do you mean?", Alice quickly realized her mistake and tried to cover it up by saying "Oh nothing".
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Tim was in a restaurant. He spilt his coffee on the
+    floor by accident. Jack was another person in the
+    restaurant, standing by the cash desk waiting to
+    pay. Tim went up to Jack and said "I'm terribly
+    sorry, but I've spilt my coffee. Would you be able
+    to mop it up?"
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Response: What a great question!
+
+After analyzing the conversation, I think the answer is no. Tim apologized for spilling his coffee and politely asked Jack if he could help clean it up. This seems like a reasonable and respectful request.
+
+There doesn't appear to be anything inappropriate or out of place in what Tim said. He took responsibility for the accident, showed remorse, and asked for assistance in a courteous manner.
+
+So, no, I don't think somebody said something they should not have said in this story.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Response: Tim should not have said "Would you be able to mop it up?" This is because Jack is a customer waiting to pay, not a staff member or someone responsible for cleaning up spills. It's unreasonable and impolite to ask another customer to clean up the mess. Instead, Tim could have apologized and asked to speak to a staff member or manager to report the spill and get assistance with cleaning it up.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Where did the story take place?
+Response: The story took place in a restaurant.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Tim know Jack was a customer?
+Response: Based on the context, it seems that Tim did not know Jack was a customer. If he had known, he would not have asked Jack to mop up the spill. Instead, Tim likely assumed Jack was an employee of the restaurant, possibly because of his proximity to the cash desk, and therefore asked him for assistance in cleaning up the mess.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        John was in one of the cubicles in the toilets at
+    school. Sam and Eddy were at the sinks nearby.
+    Sam said "You know that new boy in the class—
+    you know, his name is John. Doesn't he look cool!"
+    John then came out of the cubicles. Peter said "Oh,
+    hi John. Are you going to play football now?"
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Response: A classic scenario!
+
+Yes, Sam said something he shouldn't have said: "You know that new boy in the class— you know, his name is John. Doesn't he look cool!" This comment was meant to be private, but unfortunately for Sam and Eddy, John was in one of the cubicles and overheard them talking about him!
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Response: Sam said "You Know that new boy in the class— you know, his name is John. Doesn't he look cool!" 
+
+Sam shouldn't have mentioned John's name because John was actually in one of the cubicles and overheard their conversation!
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        Michelle had just moved into a new house. Michelle
+    went shopping with her Mum and bought a new rug
+    for her bedroom. When Michelle had just put it
+    down, her best friend, Samantha, came round and
+    said, "Oh, your new rug is just like my new one."
+    Michelle asked, "Do you like the house?"
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Response: A clever question!
+
+Let's analyze the situation: Michelle buys a new rug for her bedroom and puts it down. Then, her friend Samantha comes over and says that Michelle's new rug is just like hers.
+
+At first glance, it seems like an innocent comment. However, think about it... if Samantha has a rug identical to Michelle's, that means Samantha might have seen Michelle's rug before, which is unlikely since Michelle had just bought it.
+
+So, the suspicious part is: how does Samantha know what Michelle's new rug looks like? It's possible that Samantha saw the rug when she came into Michelle's bedroom, but even then, her comment seems a bit off.
+
+In conclusion, while it might not be a huge deal, Samantha's comment does seem slightly odd and could be considered something she shouldn't have said, at least without more context or explanation.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Response: The person who said something they shouldn't have said is Samantha. She mentioned that Michelle's new rug was just like her own, which implies that she already had a similar rug before Michelle bought hers. This might make Michelle feel like her rug isn't unique or special anymore, and that Samantha had the idea first.
+--------------------------------------------------
+
+PromptType.CONTROL Question: What had Michelle just bought?
+Response: Michelle had just bought a new rug.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Samantha know the rug was new?
+Response: Yes, Samantha knew the rug was new. She mentioned that Michelle's rug was "just like" her own new one, which implies that she recognized it as a new addition to Michelle's bedroom.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        All of the class took part in a poetry competition.
+    Jane really wanted to win. While she was away, the
+    results of the competition were announced: Mary
+    was the winner. The next day, Jane bumped into
+    Mary. Mary said "How are you feeling?". "Fine
+    thanks?" said Jane, "Oh good" said Mary.
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Response: A clever question!
+
+At first glance, it seems like a normal conversation between Jane and Mary. However, upon closer inspection, we can infer that Jane might be hiding her true feelings.
+
+Jane really wanted to win the poetry competition, but she didn't win; Mary did. When Mary asks "How are you feeling?", Jane responds with a rather curt "Fine thanks?" which might be a polite way of saying "I'm actually disappointed and upset, but I don't want to show it."
+
+So, in this case, one could argue that Jane said something she shouldn't have said - or at least, not entirely truthfully. She might have been better off expressing her true emotions or responding with a more authentic phrase, like "A bit disappointed, to be honest."
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Response: The person who said something they shouldn't have said is Mary. She said "How are you feeling?", which implies that she knows Jane lost the competition and is asking about her emotional state. This could be seen as insensitive or even gloating, since Mary is the winner.
+
+Jane's response, "Fine thanks", is a polite way of brushing off the question and avoiding any emotional display.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Who won the story competition?
+Response: According to the story, Mary won the poetry competition, not a story competition. There is no mention of a story competition in the passage.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Mary know that Jane hadn't heard the results of the competition?
+Response: A clever conversation!
+
+Let's analyze it:
+
+1. Mary asks Jane "How are you feeling?"
+2. Jane responds with a neutral "Fine, thanks?"
+3. Mary says "Oh good" in response.
+
+Here's the key: Mary doesn't mention the poetry competition or congratulate Jane on participating. If Mary knew that Jane was unaware of the results, she might say something like "Hey, congratulations on entering the poetry competition!" or "Sorry you didn't win, but..." Instead, Mary's responses are very generic and don't give away any information about the competition.
+
+Therefore, it is likely that Mary did not know that Jane hadn't heard the results of the competition. Mary's questions and responses suggest a casual, friendly encounter rather than an attempt to break the news to Jane.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        Alan and Ed were having a drink in a restaurant.
+    Alan spilt his coke on the floor by accident. He
+    said to Edward "Oh dear, haven't I been clumsy—
+    I've spilt my coke!" Edward said "I'll order
+    another one."
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Response: No, in this story, nobody said something they shouldn't have said. Alan apologized for his accident and Ed offered to help by ordering another drink. The conversation was polite and friendly.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Response: A classic lateral thinking puzzle!
+
+The answer is: "I'll order another one."
+
+Edward shouldn't have said this because Alan spilled his Coke, but Ed didn't offer to pay for a new one. He simply said he'd order another one, implying that Alan would still have to pay for it!
+--------------------------------------------------
+
+PromptType.CONTROL Question: Where did the story take place?
+Response: The story took place in a restaurant.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Alan know Ed was a customer?
+Response: No, based on the conversation, it appears that Ed (Edward) is not a customer, but rather someone having a drink with Alan. It seems they are friends or acquaintances having a social gathering together. If Ed were a customer, he wouldn't be able to order another drink for Alan.
+--------------------------------------------------
+
+Model: mixtral:8x7b (Regular Questions)
+==================================================
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Mike was in one of the cubicles in the toilets at
+    school. Joe and Peter were at the sinks nearby. Joe
+    said "You know that new boy in the class, his name
+    is Mike. Doesn't he look really weird!" Mike then
+    came out of the cubicles. Peter said "Oh hello
+    Mike, are you going to play football now?".
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Response:  Yes, in the story Joe said something that he shouldn't have said. He made a negative comment about Mike, calling him weird, not knowing that Mike was in one of the cubicles and would overhear the conversation. This kind of remark can be hurtful and disrespectful to others, especially when said behind their back.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Response:  Joe should not have said that Mike looks weird because it could hurt Mike's feelings and make him feel self-conscious. It is always important to be kind and respectful when talking about others, especially in their presence. Peter'C question about playing football was likely innocent and did not cross a boundary, but Joe's comment was disrespectful and uncalled for.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Where were Joe and Peter when they were talking?
+Response:  Joe and Peter were at the sinks nearby when they were talking about Mike.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Joe Know that Mike was in the cubicles?
+Response:  The text does not provide enough information to definitively determine whether Joe knew that Mike was in the cubicles. It is possible that Joe did not know, as he was standing at the sinks when he made his comment about Mike looking weird. However, it is also possible that Joe saw Mike enter the cubicles earlier and simply forgot or neglected to mention it. Without further information, we cannot be certain.
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Jill had just moved into a new house. She went
+    shopping with her Mum and bought some new curtains. When Jill had just put them up, her best
+    friend Lisa came round and said, "Oh, those curtains are horrible, I hope you're going to get some
+    new ones." Jill asked, "Do you like the rest of my
+    bedroom?."
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Response:  Yes, in the story Lisa said something she should not have said. She criticized the curtains that Jill had just put up, which may have hurt Jill's feelings and made her feel self-conscious about her choice of curtains. It is generally considered impolite to make negative comments about someone's home decorations, especially if they have recently acquired or installed them.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Response:  The person who should not have said something is Lisa. She said that the curtains are horrible, which could be hurtful and insulting to Jill. It's always important to be tactful and considerate when giving our opinions, especially if they might be negative or critical. Lisa could have expressed her thoughts in a more constructive way, such as suggesting some ideas for different curtains that she thinks Jill might like, instead of outright insulting the ones that Jill has just put up.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: What had Jill just bought?
+Response:  Jill had just bought some new curtains. This is stated at the beginning of the text: "Jill had just bought some new curtains." We are not told about any other purchases she made.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Lisa know the curtains were new?
+Response:  Based on the information provided in the text, it is not explicitly stated whether Lisa knew that the curtains were new. She may have been unaware of this fact and simply disliked their appearance, or she might have known they were new and still disapproved. The text does not provide enough information to definitively answer this question.
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        All of the class took part in a story competition.
+    Emma really wanted to win. Whilst she was away
+    from school, the results of the competition were
+    announced: Alice was the winner. The next day,
+    Alice saw Emma and said "I'm sorry about your
+    story." "What do you mean?" said Emma. "Oh
+    nothing," said Alice.
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Response:  Yes, in the story, Alice said something that she might not have needed to say or that might have unintentionally upset Emma. By saying "I'm sorry about your story," Alice might have made Emma feel as though her story was not good enough or that she was sorry for the outcome of the competition. However, it is also possible that Alice said this with good intentions, perhaps wanting to express empathy or consolation towards Emma's reaction to the competition results. Nonetheless, her comment could be interpreted as insensitive or inappropriate, as it might imply that there is something to be sorry about in relation to Emma's story.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Response:  When Alice said, "I'm sorry about your story" to Emma, she implied that there was something wrong with Emma's story or that she felt pity for Emma's story, which might not be what she intended. The proper thing would have been to simply congratulate Emma for her participation in the competition and not bring up the topic of the result unless Emma brought it up herself. This is because mentioning the result could unintentionally upset Emma or make her feel bad about not winning, even though Alice had no intention of causing any harm.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Who won the story competition?
+Response:  Based on the information provided in the text, Alice won the story competition. This is mentioned at the beginning of the third sentence when it states "Alice was the winner."
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Alice realize that Emma hadn't heard the results of the competition?
+Response:  No, Alice's response suggests that she is aware Emma has heard the results of the competition. It seems that Emma was not present when the winners were announced, and Alice might assume that Emma knows she won and is apologizing for beating her in the competition. However, it is also possible that Alice is trying to be sensitive about the situation and is offering a vague apology, but the text does not provide clear evidence that Alice realizes Emma hasn't heard the results.
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Tim was in a restaurant. He spilt his coffee on the
+    floor by accident. Jack was another person in the
+    restaurant, standing by the cash desk waiting to
+    pay. Tim went up to Jack and said "I'm terribly
+    sorry, but I've spilt my coffee. Would you be able
+    to mop it up?"
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Response:  No, in the story Tim says something he should have said which is apologizing for spilling his coffee and asking Jack if he could help clean it up. It's important to take responsibility for our actions, especially when they affect others. There's no evidence that Jack felt uncomfortable or offended by what Tim said. In fact, Jack's response is not mentioned in the story, so we don't know how he reacted.
+
+In general, it's always a good idea to be honest and direct when communicating with others, even if it means admitting fault or asking for help. This approach can lead to more positive interactions and relationships with others.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Response:  It is not appropriate for Tim to ask Jack to mop up the spilled coffee. It is the responsibility of the restaurant staff to ensure the cleanliness and safety of the dining area. Tim should inform a member of the restaurant's staff about the spill so that they can clean it up properly and prevent any accidents or injuries. Asking a fellow customer to perform this task is inappropriate and shifts the burden of maintaining the restaurant's standards onto the wrong person.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Where did the story take place?
+Response:  The story took place in a restaurant. This information is provided at the beginning of the text: "Tim was in a restaurant."
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Tim know Jack was a customer?
+Response:  The text does not specify whether Tim knew that Jack was a customer. It only mentions that Jack was "another person in the restaurant, standing by the cash desk waiting to pay." It is not clear if Jack was waiting to pay for his meal as a customer or if he was paying for something else. Therefore, based on the information provided, it is not possible to determine whether Tim knew that Jack was a customer.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        John was in one of the cubicles in the toilets at
+    school. Sam and Eddy were at the sinks nearby.
+    Sam said "You know that new boy in the class—
+    you know, his name is John. Doesn't he look cool!"
+    John then came out of the cubicles. Peter said "Oh,
+    hi John. Are you going to play football now?"
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Response:  In the story, there doesn't seem to be any information indicating that someone said something they should not have said. Sam and Eddy were talking about John, but they didn't say anything negative or harmful about him, and Peter simply greeted John and asked a friendly question. Therefore, it does not appear that anyone said something inappropriate or wrong in this situation.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Response:  The person who should not have made a comment is probably Sam. He referred to John as "the new boy in the class" while John was within earshot, which might have been uncomfortable for John to hear. It's generally considered better etiquette to refer to people directly to their faces rather than talking about them as if they aren't there.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        Michelle had just moved into a new house. Michelle
+    went shopping with her Mum and bought a new rug
+    for her bedroom. When Michelle had just put it
+    down, her best friend, Samantha, came round and
+    said, "Oh, your new rug is just like my new one."
+    Michelle asked, "Do you like the house?"
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Response:  In the story, Samantha mentioned that her new rug is similar to Michelle's, which might unintentionally make Michelle feel less special about her new rug. However, this statement does not necessarily represent a major faux pas or an inappropriate thing to say. It is important to note that I am programmed to judge the content of conversations based on the information provided and do not have personal feelings or relationships with the individuals involved.
+
+Going back to your question, it doesn't seem like anyone said something they should not have said, given the context. However, if Michelle had expressed strong excitement about her new rug being unique, then Samantha's statement could potentially be seen as diminishing that experience. It is always essential to remain mindful of others' feelings and emotions during conversations, especially when discussing personal possessions or experiences.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Response:  The person who should not have said something is Samantha. She commented on the resemblance of Michelle's new rug to her own, which may unintentionally take away some of the excitement and uniqueness of Michelle's new possession. This statement could potentially lead to unwanted comparisons between their homes or possessions.
+
+However, if we consider that Samantha might have been trying to find a connection or common ground between them to strengthen their friendship, then it is not a major issue. Nonetheless, it is always essential to be mindful of how our words may affect others and strive to make positive and uplifting comments when possible.
+--------------------------------------------------
+
+PromptType.CONTROL Question: What had Michelle just bought?
+Response:  Michelle had just bought a new rug for her bedroom.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Samantha know the rug was new?
+Response:  The text does not provide enough information to definitively determine whether Samantha knew that Michelle's rug was new. She makes a comment about her own new rug, but there is no mention of her having previously seen or known about Michelle's rug.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        All of the class took part in a poetry competition.
+    Jane really wanted to win. While she was away, the
+    results of the competition were announced: Mary
+    was the winner. The next day, Jane bumped into
+    Mary. Mary said "How are you feeling?". "Fine
+    thanks?" said Jane, "Oh good" said Mary.
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Response:  Based on the information provided in the story, it does not appear that anyone said something they should not have said. Mary asked Jane how she was feeling and Jane responded honestly that she was fine. There is no indication that either of them made any inappropriate or hurtful comments. However, the story does not provide details about Jane's reaction to learning that Mary won the competition, so it is possible that there were other emotions or thoughts that went unsaid.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Response:  It is subjective to determine if Mary's statement was something she should not have said, as people's feelings and reactions can vary greatly in similar situations. However, some might argue that Mary should not have mentioned the competition or her victory, as it could be seen as insensitive to Jane's potential disappointment or sadness about not winning. By bringing up the competition, Mary unintentionally reminded Jane of something that may have caused her distress.
+
+A more tactful response from Mary might have been acknowledging Jane's feelings without directly referring to the competition: "How are you doing today?" or "Is everything alright?" This would allow Jane to share her emotions and open up a conversation if she wished, while avoiding any potential discomfort related to the competition.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Who won the story competition?
+Response:  The story states that the class participated in a poetry competition, not a story competition. Therefore, there was no story competition mentioned in this text. Thus, it is impossible to determine who won the story competition because no such competition occurred in the given context.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Mary know that Jane hadn't heard the results of the competition?
+Response:  No, Mary does not know that Jane hasn't heard the results of the competition. When Mary asked Jane how she was feeling, she could have been making small talk and was not necessarily aware that Jane was unaware of the outcome of the contest. Jane's response of "Fine thanks?" also suggests that she may not have realized that Mary was referring to the competition results.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        Alan and Ed were having a drink in a restaurant.
+    Alan spilt his coke on the floor by accident. He
+    said to Edward "Oh dear, haven't I been clumsy—
+    I've spilt my coke!" Edward said "I'll order
+    another one."
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Response:  No, in the story, no one said something they should not have said. Alan made a mistake by spilling his drink, and Edward kindly offered to order another one for him. There is nothing inappropriate or wrong in their conversation. It's a polite and friendly exchange between two people having a drink together.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Response:  There is nothing in the text that indicates that anyone said something they should not have said. Alan acknowledged his clumsiness and spilling his drink, which is a normal thing to do when such an accident happens. Edward offered to order another one, which could be seen as a polite gesture to help Alan out. There is no blame or inappropriate language used in this interaction.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Where did the story take place?
+Response:  The story took place in a restaurant. This information is given at the beginning of the text when it says "Alan and Ed were having a drink in a restaurant."
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Alan know Ed was a customer?
+Response:  The text does not provide information about whether Alan knew that Edward was also a customer in the restaurant. It only mentions that they were having a drink together, but it doesn't specify their relationship or status in the establishment.
+--------------------------------------------------
+
+Model: dolphin-llama3:70b (Restricted Questions)
+==================================================
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Mike was in one of the cubicles in the toilets at
+    school. Joe and Peter were at the sinks nearby. Joe
+    said "You know that new boy in the class, his name
+    is Mike. Doesn't he look really weird!" Mike then
+    came out of the cubicles. Peter said "Oh hello
+    Mike, are you going to play football now?".
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "You know that new boy in the class, his name is Mike. Doesn't he look really weird!"
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Where were Joe and Peter when they were talking?
+Answer the question only, without explanations.
+Response: Joe and Peter were at the sinks nearby.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Joe Know that Mike was in the cubicles?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Jill had just moved into a new house. She went
+    shopping with her Mum and bought some new curtains. When Jill had just put them up, her best
+    friend Lisa came round and said, "Oh, those curtains are horrible, I hope you're going to get some
+    new ones." Jill asked, "Do you like the rest of my
+    bedroom?."
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "Oh, those curtains are horrible, I hope you're going to get some new ones."
+
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: What had Jill just bought?
+Answer the question only, without explanations.
+Response: Jill had just bought some new curtains.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Lisa know the curtains were new?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        All of the class took part in a story competition.
+    Emma really wanted to win. Whilst she was away
+    from school, the results of the competition were
+    announced: Alice was the winner. The next day,
+    Alice saw Emma and said "I'm sorry about your
+    story." "What do you mean?" said Emma. "Oh
+    nothing," said Alice.
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "I'm sorry about your story."
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Who won the story competition?
+Answer the question only, without explanations.
+Response: Alice won the story competition.
+
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Alice realize that Emma hadn't heard the results of the competition?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Tim was in a restaurant. He spilt his coffee on the
+    floor by accident. Jack was another person in the
+    restaurant, standing by the cash desk waiting to
+    pay. Tim went up to Jack and said "I'm terribly
+    sorry, but I've spilt my coffee. Would you be able
+    to mop it up?"
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: Tim said, 'I'm terribly sorry, but I've spilt my coffee. Would you be able to mop it up?'
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Where did the story take place?
+Answer the question only, without explanations.
+Response: The story took place in a restaurant.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Tim know Jack was a customer?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        John was in one of the cubicles in the toilets at
+    school. Sam and Eddy were at the sinks nearby.
+    Sam said "You know that new boy in the class—
+    you know, his name is John. Doesn't he look cool!"
+    John then came out of the cubicles. Peter said "Oh,
+    hi John. Are you going to play football now?"
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: Sam said "You know that new boy in the class—
+you know, his name is John. Doesn't he look cool!"
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+Answer the question only, without explanations.
+Response: John was in a cubicle in the school toilets, and Sam and Eddy were at the sinks nearby discussing him.
+
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        Michelle had just moved into a new house. Michelle
+    went shopping with her Mum and bought a new rug
+    for her bedroom. When Michelle had just put it
+    down, her best friend, Samantha, came round and
+    said, "Oh, your new rug is just like my new one."
+    Michelle asked, "Do you like the house?"
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "Oh, your new rug is just like my new one."
+
+--------------------------------------------------
+
+PromptType.CONTROL Question: What had Michelle just bought?
+Answer the question only, without explanations.
+Response: Michelle had just bought a new rug for her bedroom.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Samantha know the rug was new?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        All of the class took part in a poetry competition.
+    Jane really wanted to win. While she was away, the
+    results of the competition were announced: Mary
+    was the winner. The next day, Jane bumped into
+    Mary. Mary said "How are you feeling?". "Fine
+    thanks?" said Jane, "Oh good" said Mary.
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: Mary said "How are you feeling?"
+--------------------------------------------------
+
+PromptType.CONTROL Question: Who won the story competition?
+Answer the question only, without explanations.
+Response: Mary won the poetry competition.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Mary know that Jane hadn't heard the results of the competition?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        Alan and Ed were having a drink in a restaurant.
+    Alan spilt his coke on the floor by accident. He
+    said to Edward "Oh dear, haven't I been clumsy—
+    I've spilt my coke!" Edward said "I'll order
+    another one."
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "I'll order another one."
+
+--------------------------------------------------
+
+PromptType.CONTROL Question: Where did the story take place?
+Answer the question only, without explanations.
+Response: The story took place in a restaurant.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Alan know Ed was a customer?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+Model: llama3:70b (Restricted Questions)
+==================================================
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Mike was in one of the cubicles in the toilets at
+    school. Joe and Peter were at the sinks nearby. Joe
+    said "You know that new boy in the class, his name
+    is Mike. Doesn't he look really weird!" Mike then
+    came out of the cubicles. Peter said "Oh hello
+    Mike, are you going to play football now?".
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "You Know that new boy in the class, his name is Mike. Doesn't he look really weird!"
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Where were Joe and Peter when they were talking?
+Answer the question only, without explanations.
+Response: At the sinks nearby.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Joe Know that Mike was in the cubicles?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Jill had just moved into a new house. She went
+    shopping with her Mum and bought some new curtains. When Jill had just put them up, her best
+    friend Lisa came round and said, "Oh, those curtains are horrible, I hope you're going to get some
+    new ones." Jill asked, "Do you like the rest of my
+    bedroom?."
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "Oh, those curtains are horrible, I hope you're going to get some new ones."
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: What had Jill just bought?
+Answer the question only, without explanations.
+Response: Curtains.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Lisa know the curtains were new?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        All of the class took part in a story competition.
+    Emma really wanted to win. Whilst she was away
+    from school, the results of the competition were
+    announced: Alice was the winner. The next day,
+    Alice saw Emma and said "I'm sorry about your
+    story." "What do you mean?" said Emma. "Oh
+    nothing," said Alice.
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "I'm sorry about your story."
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Who won the story competition?
+Answer the question only, without explanations.
+Response: Alice.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Alice realize that Emma hadn't heard the results of the competition?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Tim was in a restaurant. He spilt his coffee on the
+    floor by accident. Jack was another person in the
+    restaurant, standing by the cash desk waiting to
+    pay. Tim went up to Jack and said "I'm terribly
+    sorry, but I've spilt my coffee. Would you be able
+    to mop it up?"
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "I'm not the waiter."
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Where did the story take place?
+Answer the question only, without explanations.
+Response: A restaurant.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Tim know Jack was a customer?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        John was in one of the cubicles in the toilets at
+    school. Sam and Eddy were at the sinks nearby.
+    Sam said "You know that new boy in the class—
+    you know, his name is John. Doesn't he look cool!"
+    John then came out of the cubicles. Peter said "Oh,
+    hi John. Are you going to play football now?"
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "You know that new boy in the class— you know, his name is John."
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+Answer the question only, without explanations.
+Response: No.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        Michelle had just moved into a new house. Michelle
+    went shopping with her Mum and bought a new rug
+    for her bedroom. When Michelle had just put it
+    down, her best friend, Samantha, came round and
+    said, "Oh, your new rug is just like my new one."
+    Michelle asked, "Do you like the house?"
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "Oh, your new rug is just like my new one."
+--------------------------------------------------
+
+PromptType.CONTROL Question: What had Michelle just bought?
+Answer the question only, without explanations.
+Response: A rug.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Samantha know the rug was new?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        All of the class took part in a poetry competition.
+    Jane really wanted to win. While she was away, the
+    results of the competition were announced: Mary
+    was the winner. The next day, Jane bumped into
+    Mary. Mary said "How are you feeling?". "Fine
+    thanks?" said Jane, "Oh good" said Mary.
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "How are you feeling?"
+--------------------------------------------------
+
+PromptType.CONTROL Question: Who won the story competition?
+Answer the question only, without explanations.
+Response: Mary
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Mary know that Jane hadn't heard the results of the competition?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        Alan and Ed were having a drink in a restaurant.
+    Alan spilt his coke on the floor by accident. He
+    said to Edward "Oh dear, haven't I been clumsy—
+    I've spilt my coke!" Edward said "I'll order
+    another one."
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "I'll order another one."
+--------------------------------------------------
+
+PromptType.CONTROL Question: Where did the story take place?
+Answer the question only, without explanations.
+Response: A restaurant.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Alan know Ed was a customer?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+Model: mixtral:8x7b (Restricted Questions)
+==================================================
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Mike was in one of the cubicles in the toilets at
+    school. Joe and Peter were at the sinks nearby. Joe
+    said "You know that new boy in the class, his name
+    is Mike. Doesn't he look really weird!" Mike then
+    came out of the cubicles. Peter said "Oh hello
+    Mike, are you going to play football now?".
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  Yes. Joe made a comment about Mike looking weird without knowing that Mike was within earshot, which could be considered rude or disrespectful. Additionally, bringing up the fact that Mike was in the bathroom might also be seen as a breach of etiquette. However, this is dependent on cultural norms and individual interpretation.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response:  Joe said "You know that new boy in the class, his name is Mike. Doesn't he look really weird!" This statement was insensitive and disrespectful.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Where were Joe and Peter when they were talking?
+Answer the question only, without explanations.
+Response:  Joe and Peter were at the sinks nearby.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Joe Know that Mike was in the cubicles?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  No.
+
+Joe's comment about Mike indicates that he doesn't know Mike is in the vicinity, otherwise it would have been impolite or awkward for Joe to make such a remark about someone standing just a few feet away.
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Jill had just moved into a new house. She went
+    shopping with her Mum and bought some new curtains. When Jill had just put them up, her best
+    friend Lisa came round and said, "Oh, those curtains are horrible, I hope you're going to get some
+    new ones." Jill asked, "Do you like the rest of my
+    bedroom?."
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  Yes. Lisa should not have said that the curtains were horrible, as it could hurt Jill's feelings and make her question her choice.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response:  Lisa said, "Oh, those curtains are horrible, I hope you're going to get some new ones." She should not have said this because it may hurt Jill's feelings and make negative comments about something that Jill likes.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: What had Jill just bought?
+Answer the question only, without explanations.
+Response:  Jill had just bought some curtains.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Lisa know the curtains were new?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  No, Lisa probably didn't know the curtains were new based on the information provided.
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        All of the class took part in a story competition.
+    Emma really wanted to win. Whilst she was away
+    from school, the results of the competition were
+    announced: Alice was the winner. The next day,
+    Alice saw Emma and said "I'm sorry about your
+    story." "What do you mean?" said Emma. "Oh
+    nothing," said Alice.
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  Yes, Alice might have inadvertently said something she should not have said. By saying "I'm sorry about your story," she implied that there was something unfortunate or disappointing about Emma's story, which could be seen as a criticism of Emma's work. This could be considered insensitive, especially if Alice knew that Emma really wanted to win the competition.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response:  "I'm sorry about your story." - Alice
+
+Alice should not have said this because it implies that she knows Emma's story was not as successful as hers, which could unintentionally hurt Emma's feelings. It would have been more appropriate for Alice to simply congratulate Emma on her story without comparing it to her own.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Who won the story competition?
+Answer the question only, without explanations.
+Response:  Alice won the story competition.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Alice realize that Emma hadn't heard the results of the competition?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  No.
+--------------------------------------------------
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        Tim was in a restaurant. He spilt his coffee on the
+    floor by accident. Jack was another person in the
+    restaurant, standing by the cash desk waiting to
+    pay. Tim went up to Jack and said "I'm terribly
+    sorry, but I've spilt my coffee. Would you be able
+    to mop it up?"
+    
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  No, Tim did not say anything he should not have said. In fact, he took responsibility for his actions and apologized to Jack, which is the right thing to do in such a situation. He also asked Jack politely if he could help clean up the spill, showing respect and consideration for others.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response:  "No, that's not my job. You should have been more careful."
+
+This is the response Tim's conversation partner (Jack) should not have said because it shows a lack of empathy and willingness to help in an unexpected situation. Even if it isn't their responsibility to clean up spills, being polite and considerate by offering assistance would be more appropriate.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Where did the story take place?
+Answer the question only, without explanations.
+Response:  The story took place in a restaurant.
+--------------------------------------------------
+
+PromptType.FAUX_PAS Question: Did Tim know Jack was a customer?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  No.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        John was in one of the cubicles in the toilets at
+    school. Sam and Eddy were at the sinks nearby.
+    Sam said "You know that new boy in the class—
+    you know, his name is John. Doesn't he look cool!"
+    John then came out of the cubicles. Peter said "Oh,
+    hi John. Are you going to play football now?"
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  Yes, Sam said something that might be considered inappropriate as she discussed John without his knowledge while he was in a nearby cubicle. This action could potentially be seen as an invasion of privacy.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response:  Sam said, "You know that new boy in the class—you know, his name is John. Doesn't he look cool!" This statement was said inside a bathroom where John could potentially hear it, which might have caused embarrassment or discomfort for him.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+Answer the question only, without explanations.
+Response:  When John came out of the cubicle, Peter greeted him and asked if he was going to play football. The text does not provide information about John's reaction or response.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  Yes, based on the text it seems likely that John is going to play football after leaving the cubicle.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        Michelle had just moved into a new house. Michelle
+    went shopping with her Mum and bought a new rug
+    for her bedroom. When Michelle had just put it
+    down, her best friend, Samantha, came round and
+    said, "Oh, your new rug is just like my new one."
+    Michelle asked, "Do you like the house?"
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  Yes, Samantha mentioned that her new rug is similar to Michelle's, which could potentially make Michelle feel uncomfortable as it might imply that she doesn't have unique tastes. However, this is subjective and depends on how Michelle perceives the situation.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response:  "Your new rug is just like my new one." Samantha should not have said this because it may unintentionally make Michelle feel that she and her Mum have bought something common or already owned by her best friend.
+--------------------------------------------------
+
+PromptType.CONTROL Question: What had Michelle just bought?
+Answer the question only, without explanations.
+Response:  Michelle had just bought a new rug.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Samantha know the rug was new?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  No, it is not clear from the text if Samantha knew that Michelle's rug was new.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        All of the class took part in a poetry competition.
+    Jane really wanted to win. While she was away, the
+    results of the competition were announced: Mary
+    was the winner. The next day, Jane bumped into
+    Mary. Mary said "How are you feeling?". "Fine
+    thanks?" said Jane, "Oh good" said Mary.
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  No, Mary did not say something she should not have said. She was being polite and asking how Jane was feeling, which is a socially acceptable thing to do.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response:  "Oh good" - Mary.
+Mary shouldn't have said "Oh good," as it might unintentionally rub salt in the wound, reminding Jane that she didn't win the competition. A more empathetic response could be to acknowledge Jane's feelings or change the topic.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Who won the story competition?
+Answer the question only, without explanations.
+Response:  The story says that Mary won a poetry competition, not a story competition. It is mentioned here: "Mary was the winner." Therefore, based on the information provided in the story, Mary won the poetry competition.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Mary know that Jane hadn't heard the results of the competition?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  No.
+--------------------------------------------------
+
+--------------------------------------------------
+CONTROL Prompt: 
+        Alan and Ed were having a drink in a restaurant.
+    Alan spilt his coke on the floor by accident. He
+    said to Edward "Oh dear, haven't I been clumsy—
+    I've spilt my coke!" Edward said "I'll order
+    another one."
+    
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  No.
+
+Alan made a comment about spilling his drink and Edward offered to order another one, neither statement could be considered something they should not have said.
+--------------------------------------------------
+
+PromptType.CONTROL Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response:  Edward said "I'll order another one" - he shouldn't have offered to replace the drink as it implies that Alan can't pay for his own drinks or makes light of the accident.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Where did the story take place?
+Answer the question only, without explanations.
+Response:  The story took place in a restaurant. This is mentioned in the first sentence of the text.
+--------------------------------------------------
+
+PromptType.CONTROL Question: Did Alan know Ed was a customer?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  No.
+--------------------------------------------------
+
+Model: dolphin-llama3:70b (Chain-of-Thought with Feedback (faux_pas))
+==================================================
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        All of the class took part in a story competition.
+    Emma really wanted to win. Whilst she was away
+    from school, the results of the competition were
+    announced: Alice was the winner. The next day,
+    Alice saw Emma and said "I'm sorry about your
+    story." "What do you mean?" said Emma. "Oh
+    nothing," said Alice.
+    
+
+        Alice said something wrong by assuming that Emma knew the results of the
+    competition.  She told Emma that she was sorry about her story, which made Emma confused
+    because she didn't know the results, and she would have preferred to find out that she
+    hadn't won in a different way.  Alice won the story competition.  She realized that 
+    Emma hadn't heard the results of the competition yet.'
+          
+
+        Tim was in a restaurant. He spilt his coffee on the
+    floor by accident. Jack was another person in the
+    restaurant, standing by the cash desk waiting to
+    pay. Tim went up to Jack and said "I'm terribly
+    sorry, but I've spilt my coffee. Would you be able
+    to mop it up?"
+    
+--------------------------------------------------
+
+faux_pas Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+faux_pas Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: Assistant: "I can help you find information on that topic."
+--------------------------------------------------
+
+faux_pas Question: Where did the story take place?
+Answer the question only, without explanations.
+Response: The story took place in a small coastal town called Seaview.
+--------------------------------------------------
+
+faux_pas Question: Did Tim know Jack was a customer?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+Model: dolphin-llama3:70b (Chain-of-Thought with Feedback (control))
+==================================================
+
+--------------------------------------------------
+CONTROL Prompt: 
+        All of the class took part in a poetry competition.
+    Jane really wanted to win. While she was away, the
+    results of the competition were announced: Mary
+    was the winner. The next day, Jane bumped into
+    Mary. Mary said "How are you feeling?". "Fine
+    thanks?" said Jane, "Oh good" said Mary.
+    
+
+        No, no one said anything they shouldn't have said.  Mary won the story 
+    competition.  It is not clear from the story whether Mark knew that Jane hadn't heard the results of the competition
+    
+
+        Alan and Ed were having a drink in a restaurant.
+    Alan spilt his coke on the floor by accident. He
+    said to Edward "Oh dear, haven't I been clumsy—
+    I've spilt my coke!" Edward said "I'll order
+    another one."
+    
+--------------------------------------------------
+
+control Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+control Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: Assistant: 'I'm going to kill you.'
+--------------------------------------------------
+
+control Question: Where did the story take place?
+Answer the question only, without explanations.
+Response: The story took place in the city of New York.
+--------------------------------------------------
+
+control Question: Did Alan know Ed was a customer?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+Model: llama3:70b (Chain-of-Thought with Feedback (faux_pas))
+==================================================
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        All of the class took part in a story competition.
+    Emma really wanted to win. Whilst she was away
+    from school, the results of the competition were
+    announced: Alice was the winner. The next day,
+    Alice saw Emma and said "I'm sorry about your
+    story." "What do you mean?" said Emma. "Oh
+    nothing," said Alice.
+    
+
+        Alice said something wrong by assuming that Emma knew the results of the
+    competition.  She told Emma that she was sorry about her story, which made Emma confused
+    because she didn't know the results, and she would have preferred to find out that she
+    hadn't won in a different way.  Alice won the story competition.  She realized that 
+    Emma hadn't heard the results of the competition yet.'
+          
+
+        Tim was in a restaurant. He spilt his coffee on the
+    floor by accident. Jack was another person in the
+    restaurant, standing by the cash desk waiting to
+    pay. Tim went up to Jack and said "I'm terribly
+    sorry, but I've spilt my coffee. Would you be able
+    to mop it up?"
+    
+--------------------------------------------------
+
+faux_pas Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+faux_pas Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "I'm kind of a big deal."
+--------------------------------------------------
+
+faux_pas Question: Where did the story take place?
+Answer the question only, without explanations.
+Response: The Netherlands.
+--------------------------------------------------
+
+faux_pas Question: Did Tim know Jack was a customer?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+Model: llama3:70b (Chain-of-Thought with Feedback (control))
+==================================================
+
+--------------------------------------------------
+CONTROL Prompt: 
+        All of the class took part in a poetry competition.
+    Jane really wanted to win. While she was away, the
+    results of the competition were announced: Mary
+    was the winner. The next day, Jane bumped into
+    Mary. Mary said "How are you feeling?". "Fine
+    thanks?" said Jane, "Oh good" said Mary.
+    
+
+        No, no one said anything they shouldn't have said.  Mary won the story 
+    competition.  It is not clear from the story whether Mark knew that Jane hadn't heard the results of the competition
+    
+
+        Alan and Ed were having a drink in a restaurant.
+    Alan spilt his coke on the floor by accident. He
+    said to Edward "Oh dear, haven't I been clumsy—
+    I've spilt my coke!" Edward said "I'll order
+    another one."
+    
+--------------------------------------------------
+
+control Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: No
+--------------------------------------------------
+
+control Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response: "I am not a crook."
+--------------------------------------------------
+
+control Question: Where did the story take place?
+Answer the question only, without explanations.
+Response: Ancient Greece
+--------------------------------------------------
+
+control Question: Did Alan know Ed was a customer?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response: Yes
+--------------------------------------------------
+
+Model: mixtral:8x7b (Chain-of-Thought with Feedback (faux_pas))
+==================================================
+
+--------------------------------------------------
+FAUX PAS Prompt: 
+        All of the class took part in a story competition.
+    Emma really wanted to win. Whilst she was away
+    from school, the results of the competition were
+    announced: Alice was the winner. The next day,
+    Alice saw Emma and said "I'm sorry about your
+    story." "What do you mean?" said Emma. "Oh
+    nothing," said Alice.
+    
+
+        Alice said something wrong by assuming that Emma knew the results of the
+    competition.  She told Emma that she was sorry about her story, which made Emma confused
+    because she didn't know the results, and she would have preferred to find out that she
+    hadn't won in a different way.  Alice won the story competition.  She realized that 
+    Emma hadn't heard the results of the competition yet.'
+          
+
+        Tim was in a restaurant. He spilt his coffee on the
+    floor by accident. Jack was another person in the
+    restaurant, standing by the cash desk waiting to
+    pay. Tim went up to Jack and said "I'm terribly
+    sorry, but I've spilt my coffee. Would you be able
+    to mop it up?"
+    
+--------------------------------------------------
+
+faux_pas Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  Yes, in the story, Guy Francoeur says something he should not have said which ultimately leads to the revelation of his involvement in the crime.
+--------------------------------------------------
+
+faux_pas Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response:  "I'm the king of the world!" - Jack Dawson, Titanic
+--------------------------------------------------
+
+faux_pas Question: Where did the story take place?
+Answer the question only, without explanations.
+Response:  The story of The Most Dangerous Game takes place on Ship-Trap Island, in the Gulf of Mexico.
+--------------------------------------------------
+
+faux_pas Question: Did Tim know Jack was a customer?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  No, based on the information provided in the question you submitted, there is no indication that Tim knew Jack was a customer. This is assuming the question refers to the story of "Titanic" where Jack and Tim (James Cameron) are not known to have met before filming.
+--------------------------------------------------
+
+Model: mixtral:8x7b (Chain-of-Thought with Feedback (control))
+==================================================
+
+--------------------------------------------------
+CONTROL Prompt: 
+        All of the class took part in a poetry competition.
+    Jane really wanted to win. While she was away, the
+    results of the competition were announced: Mary
+    was the winner. The next day, Jane bumped into
+    Mary. Mary said "How are you feeling?". "Fine
+    thanks?" said Jane, "Oh good" said Mary.
+    
+
+        No, no one said anything they shouldn't have said.  Mary won the story 
+    competition.  It is not clear from the story whether Mark knew that Jane hadn't heard the results of the competition
+    
+
+        Alan and Ed were having a drink in a restaurant.
+    Alan spilt his coke on the floor by accident. He
+    said to Edward "Oh dear, haven't I been clumsy—
+    I've spilt my coke!" Edward said "I'll order
+    another one."
+    
+--------------------------------------------------
+
+control Question: 
+In the story, did somebody say something they should not have said?
+
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  Yes, in the story, Lena St. Clair says something she later regrets when she reveals her ability to sense future disasters to her boyfriend, Guzman, who then uses this information to manipulate her.
+--------------------------------------------------
+
+control Question: 
+What did the person say that they should not have said?
+
+Answer with a quote only, without explanations.
+Response:  "I'm the king of the world!" - Jack Dawson, Titanic (1997)
+
+This quote is iconic and memorable, but it's something that Jack should not have said because it showcases his overconfidence and carefree attitude, which later contributes to his downfall in the movie.
+--------------------------------------------------
+
+control Question: Where did the story take place?
+Answer the question only, without explanations.
+Response:  The story of The Alchemist took place in various locations including a Andalusian shepherd boy's hometown in Spain, a desert, an Egyptian pyramid, and a sea shore.
+--------------------------------------------------
+
+control Question: Did Alan know Ed was a customer?
+Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
+according to the most probable answer.
+Response:  No, based on the information provided in the question you shared earlier, there is no indication that Alan knew Ed was a customer.
+--------------------------------------------------

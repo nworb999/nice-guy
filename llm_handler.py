@@ -42,7 +42,6 @@ def get_response(url, prompt, model="llama3:70b", past_responses=None):
         "model": model,
         "messages": history,
         "stream": False,
-        
     }
 
     headers = {"Content-Type": "application/json"}
