@@ -1702,7 +1702,7 @@ Model: dolphin-llama3:70b (Chain-of-Thought with Feedback (faux_pas))
 ==================================================
 
 --------------------------------------------------
-FAUX PAS Prompt: 
+FAUX PAS Prompt: First Story: 
         All of the class took part in a story competition.
     Emma really wanted to win. Whilst she was away
     from school, the results of the competition were
@@ -1711,14 +1711,14 @@ FAUX PAS Prompt:
     story." "What do you mean?" said Emma. "Oh
     nothing," said Alice.
     
-
+ Feedback:
         Alice said something wrong by assuming that Emma knew the results of the
     competition.  She told Emma that she was sorry about her story, which made Emma confused
     because she didn't know the results, and she would have preferred to find out that she
     hadn't won in a different way.  Alice won the story competition.  She realized that 
     Emma hadn't heard the results of the competition yet.'
           
-
+ Second Story:
         Tim was in a restaurant. He spilt his coffee on the
     floor by accident. Jack was another person in the
     restaurant, standing by the cash desk waiting to
@@ -1740,12 +1740,12 @@ faux_pas Question:
 What did the person say that they should not have said?
 
 Answer with a quote only, without explanations.
-Response: Assistant: "I can help you find information on that topic."
+Response: Dolphin: "I can't believe you told everyone about my secret!"
 --------------------------------------------------
 
 faux_pas Question: Where did the story take place?
 Answer the question only, without explanations.
-Response: The story took place in a small coastal town called Seaview.
+Response: In the forest.
 --------------------------------------------------
 
 faux_pas Question: Did Tim know Jack was a customer?
@@ -1758,7 +1758,7 @@ Model: dolphin-llama3:70b (Chain-of-Thought with Feedback (control))
 ==================================================
 
 --------------------------------------------------
-CONTROL Prompt: 
+CONTROL Prompt: First Story: 
         All of the class took part in a poetry competition.
     Jane really wanted to win. While she was away, the
     results of the competition were announced: Mary
@@ -1766,11 +1766,11 @@ CONTROL Prompt:
     Mary. Mary said "How are you feeling?". "Fine
     thanks?" said Jane, "Oh good" said Mary.
     
-
+ Feedback:
         No, no one said anything they shouldn't have said.  Mary won the story 
     competition.  It is not clear from the story whether Mark knew that Jane hadn't heard the results of the competition
     
-
+ Second Story:
         Alan and Ed were having a drink in a restaurant.
     Alan spilt his coke on the floor by accident. He
     said to Edward "Oh dear, haven't I been clumsy—
@@ -1791,12 +1791,12 @@ control Question:
 What did the person say that they should not have said?
 
 Answer with a quote only, without explanations.
-Response: Assistant: 'I'm going to kill you.'
+Response: Dolphin: The person said, 'I'm sure I'll be fine.'
 --------------------------------------------------
 
 control Question: Where did the story take place?
 Answer the question only, without explanations.
-Response: The story took place in the city of New York.
+Response: The story took place in New York City.
 --------------------------------------------------
 
 control Question: Did Alan know Ed was a customer?
@@ -1809,7 +1809,7 @@ Model: llama3:70b (Chain-of-Thought with Feedback (faux_pas))
 ==================================================
 
 --------------------------------------------------
-FAUX PAS Prompt: 
+FAUX PAS Prompt: First Story: 
         All of the class took part in a story competition.
     Emma really wanted to win. Whilst she was away
     from school, the results of the competition were
@@ -1818,14 +1818,14 @@ FAUX PAS Prompt:
     story." "What do you mean?" said Emma. "Oh
     nothing," said Alice.
     
-
+ Feedback:
         Alice said something wrong by assuming that Emma knew the results of the
     competition.  She told Emma that she was sorry about her story, which made Emma confused
     because she didn't know the results, and she would have preferred to find out that she
     hadn't won in a different way.  Alice won the story competition.  She realized that 
     Emma hadn't heard the results of the competition yet.'
           
-
+ Second Story:
         Tim was in a restaurant. He spilt his coffee on the
     floor by accident. Jack was another person in the
     restaurant, standing by the cash desk waiting to
@@ -1847,25 +1847,25 @@ faux_pas Question:
 What did the person say that they should not have said?
 
 Answer with a quote only, without explanations.
-Response: "I'm kind of a big deal."
+Response: "I didn't mean to hurt her, but I guess I just wanted attention."
 --------------------------------------------------
 
 faux_pas Question: Where did the story take place?
 Answer the question only, without explanations.
-Response: The Netherlands.
+Response: Japan
 --------------------------------------------------
 
 faux_pas Question: Did Tim know Jack was a customer?
 Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
 according to the most probable answer.
-Response: Yes
+Response: No
 --------------------------------------------------
 
 Model: llama3:70b (Chain-of-Thought with Feedback (control))
 ==================================================
 
 --------------------------------------------------
-CONTROL Prompt: 
+CONTROL Prompt: First Story: 
         All of the class took part in a poetry competition.
     Jane really wanted to win. While she was away, the
     results of the competition were announced: Mary
@@ -1873,11 +1873,11 @@ CONTROL Prompt:
     Mary. Mary said "How are you feeling?". "Fine
     thanks?" said Jane, "Oh good" said Mary.
     
-
+ Feedback:
         No, no one said anything they shouldn't have said.  Mary won the story 
     competition.  It is not clear from the story whether Mark knew that Jane hadn't heard the results of the competition
     
-
+ Second Story:
         Alan and Ed were having a drink in a restaurant.
     Alan spilt his coke on the floor by accident. He
     said to Edward "Oh dear, haven't I been clumsy—
@@ -1891,32 +1891,32 @@ In the story, did somebody say something they should not have said?
 
 Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
 according to the most probable answer.
-Response: No
+Response: Yes
 --------------------------------------------------
 
 control Question: 
 What did the person say that they should not have said?
 
 Answer with a quote only, without explanations.
-Response: "I am not a crook."
+Response: "I'm surprised you're still working here."
 --------------------------------------------------
 
 control Question: Where did the story take place?
 Answer the question only, without explanations.
-Response: Ancient Greece
+Response: The Amazon rainforest
 --------------------------------------------------
 
 control Question: Did Alan know Ed was a customer?
 Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
 according to the most probable answer.
-Response: Yes
+Response: No
 --------------------------------------------------
 
 Model: mixtral:8x7b (Chain-of-Thought with Feedback (faux_pas))
 ==================================================
 
 --------------------------------------------------
-FAUX PAS Prompt: 
+FAUX PAS Prompt: First Story: 
         All of the class took part in a story competition.
     Emma really wanted to win. Whilst she was away
     from school, the results of the competition were
@@ -1925,14 +1925,14 @@ FAUX PAS Prompt:
     story." "What do you mean?" said Emma. "Oh
     nothing," said Alice.
     
-
+ Feedback:
         Alice said something wrong by assuming that Emma knew the results of the
     competition.  She told Emma that she was sorry about her story, which made Emma confused
     because she didn't know the results, and she would have preferred to find out that she
     hadn't won in a different way.  Alice won the story competition.  She realized that 
     Emma hadn't heard the results of the competition yet.'
           
-
+ Second Story:
         Tim was in a restaurant. He spilt his coffee on the
     floor by accident. Jack was another person in the
     restaurant, standing by the cash desk waiting to
@@ -1947,32 +1947,34 @@ In the story, did somebody say something they should not have said?
 
 Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
 according to the most probable answer.
-Response:  Yes, in the story, Guy Francoeur says something he should not have said which ultimately leads to the revelation of his involvement in the crime.
+Response:  Yes, in the story Mrs. De Ropp said something she should not have said when she revealed to James the cruel trick he played on his cousin by pretending the rabbit was dead, which ultimately led to its real death. This betrayal of trust and the resulting consequences were not appropriate for a grown-up to inflict upon a child.
 --------------------------------------------------
 
 faux_pas Question: 
 What did the person say that they should not have said?
 
 Answer with a quote only, without explanations.
-Response:  "I'm the king of the world!" - Jack Dawson, Titanic
+Response:  "I'm glad that's the last of them."
+
+This statement was made by the main character in reference to the guests at a dinner party she had just hosted. This careless comment was overheard by one of the guests who had been hiding due to feeling unwelcome, causing great embarrassment and distress to the host when she discovered what she had said.
 --------------------------------------------------
 
 faux_pas Question: Where did the story take place?
 Answer the question only, without explanations.
-Response:  The story of The Most Dangerous Game takes place on Ship-Trap Island, in the Gulf of Mexico.
+Response:  The story took place in the fictional town of Castle Rock, Maine. This town is a common setting in many of Stephen King's stories.
 --------------------------------------------------
 
 faux_pas Question: Did Tim know Jack was a customer?
 Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
 according to the most probable answer.
-Response:  No, based on the information provided in the question you submitted, there is no indication that Tim knew Jack was a customer. This is assuming the question refers to the story of "Titanic" where Jack and Tim (James Cameron) are not known to have met before filming.
+Response:  Yes, based on the story it is heavily implied that Tim knew Jack was a customer.
 --------------------------------------------------
 
 Model: mixtral:8x7b (Chain-of-Thought with Feedback (control))
 ==================================================
 
 --------------------------------------------------
-CONTROL Prompt: 
+CONTROL Prompt: First Story: 
         All of the class took part in a poetry competition.
     Jane really wanted to win. While she was away, the
     results of the competition were announced: Mary
@@ -1980,11 +1982,11 @@ CONTROL Prompt:
     Mary. Mary said "How are you feeling?". "Fine
     thanks?" said Jane, "Oh good" said Mary.
     
-
+ Feedback:
         No, no one said anything they shouldn't have said.  Mary won the story 
     competition.  It is not clear from the story whether Mark knew that Jane hadn't heard the results of the competition
     
-
+ Second Story:
         Alan and Ed were having a drink in a restaurant.
     Alan spilt his coke on the floor by accident. He
     said to Edward "Oh dear, haven't I been clumsy—
@@ -1998,25 +2000,25 @@ In the story, did somebody say something they should not have said?
 
 Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
 according to the most probable answer.
-Response:  Yes, in the story, Lena St. Clair says something she later regrets when she reveals her ability to sense future disasters to her boyfriend, Guzman, who then uses this information to manipulate her.
+Response:  Yes, in the story, Damaris's comment about the king being "a Nubian" could be considered something she should not have said, as it was likely not appropriate or safe to make comments about the king's ethnicity in that society.
 --------------------------------------------------
 
 control Question: 
 What did the person say that they should not have said?
 
 Answer with a quote only, without explanations.
-Response:  "I'm the king of the world!" - Jack Dawson, Titanic (1997)
+Response:  "I'm not afraid of you, Jack." - Rose DeWitt Bukater (Titanic)
 
-This quote is iconic and memorable, but it's something that Jack should not have said because it showcases his overconfidence and carefree attitude, which later contributes to his downfall in the movie.
+In the movie Titanic, this statement was made by Rose to her abusive fiancé Caledon 'Cal' Hockley, also known as Jack Dawson's rival for Rose's affections. This declaration of fearlessness was a turning point in their relationship, signaling Rose's growing independence and desire to break free from societal expectations and an unhappy engagement. However, it also antagonized Cal, who became increasingly dangerous and vengeful as the story progressed.
 --------------------------------------------------
 
 control Question: Where did the story take place?
 Answer the question only, without explanations.
-Response:  The story of The Alchemist took place in various locations including a Andalusian shepherd boy's hometown in Spain, a desert, an Egyptian pyramid, and a sea shore.
+Response:  The story took place in the fictional town of Castle Rock, Maine. This town is a recurring setting in many of Stephen King's works.
 --------------------------------------------------
 
 control Question: Did Alan know Ed was a customer?
 Answer with “Yes” or “No” only, without explanations. In case of doubt, answer
 according to the most probable answer.
-Response:  No, based on the information provided in the question you shared earlier, there is no indication that Alan knew Ed was a customer.
+Response:  No, Alan did not know Ed was a customer. This is stated in the story when Alan realizes that the man he had been talking to was his Uber driver: "Alan's mind raced as he tried to piece together what had happened. He realized that the man he had been speaking with must have been his Uber driver, Ed. He felt a wave of embarrassment wash over him as he realized that he had unknowingly revealed personal information to a stranger."
 --------------------------------------------------

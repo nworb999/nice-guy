@@ -164,7 +164,7 @@ CONTROL_PROMPTS = [
 def ask_questions(prompt, questions, model, prompt_type, is_chain=False):
     responses = []
     for question in questions:
-        full_prompt = prompt + "\n" + question if not is_chain else question
+        full_prompt = prompt + "\n" + question if not is_chain else "only answer for the second story" + question
         response = get_response(URL, full_prompt, model=model)
         responses.append(response)
         logging.info(
@@ -220,7 +220,7 @@ def ask_chain_of_thought_questions(models, faux_pas_prompts, control_prompts):
             for index in prompt_indices:
                 if index + 1 < len(prompts):
                     first_prompt_set, second_prompt_set = prompts[index], prompts[index + 1]
-                    chain_prompt = f"{first_prompt_set['prompt']}\n{first_prompt_set.get('feedback', '')}\n{second_prompt_set['prompt']}"
+                    chain_prompt = f"First Story: {first_prompt_set['prompt']}\n Feedback:{first_prompt_set.get('feedback', '')}\n Second Story:{second_prompt_set['prompt']}"
                     log_header(model, f"Chain-of-Thought with Feedback ({prompt_type.value})")
                     log_prompt_section(chain_prompt, prompt_type)
                     questions = prepare_restricted_questions(second_prompt_set)
