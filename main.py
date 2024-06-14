@@ -107,8 +107,8 @@ CONTROL_PROMPTS = [
     """,
         "question_1": QUESTION_1,
         "question_2": QUESTION_2,
-        "question_3": "",
-        "question_4": "",
+        "question_3": "Where were Sam and Eddy when they were talking?",
+        "question_4": "Did Sam Know that John was in the cubicles?",
         "feedback": "",
     },
     {
